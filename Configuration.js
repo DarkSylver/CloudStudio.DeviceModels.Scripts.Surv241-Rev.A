@@ -16,6 +16,7 @@ function getEndpoints(deviceAddress, endpoints)
 {
   
    endpoints.addEndpoint("Surv001", "Cámara01", endpointType.camera);
+   endpoints.addEndpoint("Temp_001","Temperatura1", endpointType.temperatureSensor);
   
 }
 
